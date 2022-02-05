@@ -80,7 +80,7 @@
     <div class="row">
       <nav class="col-md-2 d-none d-md-block bg-light sidebar">
         <div class="sidebar-sticky">
-          <ul class="nav flex-column">
+          <ul class="nav menu-list flex-column">
             <li class="nav-item">
               <a class="nav-link active" href="#">
                 Dashboard <span class="sr-only">(current)</span>
@@ -143,232 +143,142 @@
           </ul>
         </div>
       </nav>
-      <main role="main" class="col-md-7 ml-sm-auto col-lg-8 pt-3 px-4">
-        <div class="cs-pattern-elements">
-          <div class="container">
-              <div class="row">
-                  <div class="col-12">
-                      <h4>Recept Table structure</h4>
-                  </div>
-                  <div class="col-12">
-                    child 1
-                    <table class="sw-table-recipe">
-                      <thead>
-                        <tr class="sw-first-columns-table">
-                          <th><i class="cs-svg-icon numbers-white"></i></th>
-                          <th colspan="4">Faza</th>
-                          <th>Xidmət növü</th>
-                          <th>Xidmət adı</th>
-                          <th>Miqdar</th>
-                          <th>Vahid</th>
-                        </tr>
-                      </thead>
-                       <tbody>
-                        <tr class="sw-first-list-item-table">
-                          <td class="sw-td-number">1</td>
-                          <td class="sw-table-arrow">
-                            <i class="fas fa-chevron-down"></i>
-                          </td>
-                          <td colspan="3">Qəlibləmə</td>
-                          <td>İşə muzd</td>
-                          <td>Qəlib çıxarma</td>
-                          <td>15</td>
-                          <td>ədəd</td>
-                        </tr>
-                         <tr class="sw-detail-main-tr">
-                          <td class="sw-vertical-column-table" colspan="2">Təyinat</td>
-                           <td class="sw-border-none p-0" colspan="100%">
-                            <table style="width:100%;">
-                              <tbody>
-                                <tr class="sw-border-none sw-dedail-second-tr-btn">
-                                  <td class="br-none sw-table-arrow">
-                                    <i class="fas fa-chevron-down"></i>
-                                  </td>
-                                  <td colspan="100%" class="sw-second-list-table">Xammal</td>
-                                </tr>
-                                <tr class="sw-border-none sw-detail-second-tr sw-third-column-heading-table">
-                                  <td class="sw-border-none p-0" colspan="100%">
-                                      <table style="width:100%">
-                                        <thead>
-                                          <tr>
-                                            <th rowspan="1"></th>
-                                            <th style="width: 30px;"><i class="cs-svg-icon numbers"></i></th>
-                                            <th>
-                                              <select name="" id="" class="selectpicker">
-                                                <option selected value="">Məhsul...</option>
-                                                <option value="">Flyer</option>
-                                                <option value="">Business Card</option>
-                                                <option value="">Rolup</option>
-                                              </select>
-                                            </th>
-                                            <th>
-                                              <div class="cs-input-group">
-                                                <input type="text" class="" placeholder="Miqdar...">
-                                              </div>
-                                            </th>
-                                            <th>
-                                              <select name="" id="" class="selectpicker">
-                                                <option selected value="">Vahid...</option>
-                                                <option value="">10.528 kv.m</option>
-                                                <option value="">15 kv.m</option>
-                                                <option value="">28 kv.m</option>
-                                              </select>
-                                            </th>
-                                            <th style="width: 30px;"><button class="sw-table-btn btn"><i class="fas fa-plus"></i></button></th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr class="sw-third-list-item-table">
-                                            <td rowspan="1"></td>
-                                            <td class="sw-td-number">1</td>
-                                            <td>Baner</td>
-                                            <td>18 ədəd</td>
-                                            <td>10.528 kv.m</td>
-                                            <td>
-                                               <div class="d-flex"><button class="sw-table-btn-alt"><i class="fas fa-edit"></i></button>
-                                                <button class="sw-table-btn-alt"><i class="fas fa-trash"></i></button></div>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                  </td>
-                                </tr>
-                                <tr class="sw-border-none sw-dedail-second-tr-btn">
-                                  <td class="sw-table-arrow">
-                                    <i class="fas fa-chevron-down"></i>
-                                  </td>
-                                  <td colspan="100%" class="sw-second-list-table">Keyfiyyət</td>
-                                </tr>
-                             </tbody>
-                            </table>
-                           </td>
-                         </tr>
-    
-    
-                         <tr class="sw-first-list-item-table">
-                          <td class="sw-td-number">2</td>
-                          <td class="sw-table-arrow">
-                            <i class="fas fa-chevron-down"></i>
-                          </td>
-                          <td colspan="3">Qəlibləmə</td>
-                          <td>İşə muzd</td>
-                          <td>Qəlib çıxarma</td>
-                          <td>15</td>
-                          <td>ədəd</td>
-                        </tr>
-                         <tr class="sw-detail-main-tr">
-                          <td class="sw-vertical-column-table" colspan="2">Təyinat</td>
-                           <td class="sw-border-none p-0" colspan="100%">
-                            <table style="width:100%;">
-                              <tbody>
-                                <tr class="sw-border-none sw-dedail-second-tr-btn">
-                                  <td class="br-none sw-table-arrow">
-                                    <i class="fas fa-chevron-down"></i>
-                                  </td>
-                                  <td colspan="100%" class="sw-second-list-table">Xammal</td>
-                                </tr>
-                                <tr class="sw-border-none sw-detail-second-tr sw-third-column-heading-table">
-                                  <td class="sw-border-none p-0" colspan="100%">
-                                      <table style="width:100%">
-                                        <thead>
-                                          <tr>
-                                            <th rowspan="1"></th>
-                                            <th><i class="cs-svg-icon numbers"></i></th>
-                                            <th>
-                                              <select name="" id="" class="selectpicker">
-                                                <option selected value="">Məhsul...</option>
-                                                <option value="">Flyer</option>
-                                                <option value="">Business Card</option>
-                                                <option value="">Rolup</option>
-                                              </select>
-                                            </th>
-                                            <th>
-                                              <div class="cs-input-group">
-                                                <input type="text" class="" placeholder="Miqdar...">
-                                              </div>
-                                            </th>
-                                            <th>
-                                              <select name="" id="l" class="selectpicker">
-                                                <option selected value="">Vahid...</option>
-                                                <option value="">10.528 kv.m</option>
-                                                <option value="">15 kv.m</option>
-                                                <option value="">28 kv.m</option>
-                                              </select>
-                                            </th>
-                                            <th style="width: 30px;"><button class="sw-table-btn btn"><i class="fas fa-plus"></i></button></th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr class="sw-third-list-item-table">
-                                            <td rowspan="1"></td>
-                                            <td class="sw-td-number">1</td>
-                                            <td>Baner</td>
-                                            <td>18 ədəd</td>
-                                            <td>10.528 kv.m</td>
-                                            <td><div class="d-flex"><button class="sw-table-btn-alt"><i class="fas fa-edit"></i></button>
-                                              <button class="sw-table-btn-alt"><i class="fas fa-trash"></i></button></div></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                  </td>
-                                </tr>
-                                <tr class="sw-border-none sw-dedail-second-tr-btn">
-                                  <td class="sw-table-arrow">
-                                    <i class="fas fa-chevron-down"></i>
-                                  </td>
-                                  <td colspan="100%" class="sw-second-list-table">Keyfiyyət</td>
-                                </tr>
-                             </tbody>
-                            </table>
-                           </td>
-                         </tr>
-                       </tbody>
-                      </table>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <main role="main" id="mainBodyDivForAll" class="col-md-7 ml-sm-auto col-lg-8 pt-3 px-4">
+     
       </main>
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar-right">
-        <div class="sidebar-sticky">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">
-                Dashboard <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                  Orders
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Products
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Customers
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Reports
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Integrations
-              </a>
-            </li>
-          </ul>
-        </div>
+      <nav id="main-sidebar" class="col-md-2 d-none d-md-block bg-light sidebar-right">
+          
       </nav>
     </div>
   </div>
 
+  <script>
 
+    $(document).ready(function () {
+        // import export copy start
+        var Utility = {
+    addParamToUrl: function (param, value) {
+        var newurl = Utility.replaceUrlParam(document.location.href, param, value);
+        window.history.pushState({path: newurl}, '', newurl);
+    },
+    replaceUrlParam: function (url, paramName, paramValue) {
+        if (paramValue == null) {
+            paramValue = '';
+        }
+        var pattern = new RegExp('\\b(' + paramName + '=).*?(&|#|$)');
+        if (url.search(pattern) >= 0) {
+            return url.replace(pattern, '$1' + paramValue + '$2');
+        }
+        url = url.replace(/[?#]$/, '');
+        return url + (url.indexOf('?') > 0 ? '&' : '?') + paramName + '=' + paramValue;
+    },
+    getParamFromUrl: function (param) {
+        var parts = document.location.href.split("?");
+        var params = parts[parts.length - 1];
+        var pairs = params.split("&");
+        var res = '';
+        for (var i = 0; i < pairs.length; i++) {
+            var k = pairs[i].split("=")[0];
+            var v = pairs[i].split("=")[1];
+            if (k === param) {
+                res = v;
+                break;
+            }
+        }
+        return res.replace("#", "");
+    },
+    setParamOnLoad: function () {
+        var parts = document.location.href.split("?");
+        var params = parts[parts.length - 1];
+        var pairs = params.split("&");
+        for (var i = 0; i < pairs.length; i++) {
+            var k = pairs[i].split("=")[0];
+            var v = pairs[i].split("=")[1];
+            try {
+                v = v.replace(/#/g, '');
+            } catch (ee) {
+            }
+            global_var[k] = v;
+
+        }
+    },
+    convertStringToCamelStyle: function (arg) {
+        var UNDERSCORE = "_";
+        var st = arg.split(UNDERSCORE);
+        var res = st[0].toLowerCase()
+        for (var i = 1; i <= st.length - 1; i++) {
+            res = res + st[i].substring(0, 1).toUpperCase() + st[i].substring(1, st[i].length).toLowerCase();
+        }
+        return res;
+    },
+    addUnderScoreToCamalStyle: function (arg) {
+
+        arg = arg.replace(/\.?([0-9-A-Z])/g, function (x, y) {
+            return "_" + y.toLowerCase()
+        }).replace(/^_/, "");
+
+        return arg;
+
+    },
+}
+       
+        $(".menu-list").empty();
+        $.get("childs/", function (html_string) {
+           
+            $(html_string).find("td > a").each(function () {
+                var txt = $(this).text();
+                var name = txt.split('/');
+                if (name[0] !== 'Parent Directory') {
+                    $(".menu-list").append(`
+                    <li class="nav-item">
+                          <a class="manualProjectTest nav-link" data-link="${name[0]}" href="#">
+                            ${name[0]}
+                          </a>
+                    </li>`)
+                  }
+
+            })
+            const link = Utility.getParamFromUrl('test_project_id');
+            if (link) {
+                $('[data-link="' + link.replace(/%20/g, ' ') + '"]').click();
+            }
+        })
+
+
+        function openFile(file) {
+        var extension = file.substr((file.lastIndexOf('.') + 1));
+        switch (extension) {
+            case 'html':
+                return true;
+            default:
+                return false;
+        }
+    };
+    var fileNames = new Array();
+    $(document).on('click', '.manualProjectTest', function () {
+        var link = $(this).attr("data-link");
+        Utility.addParamToUrl('test_project_id', link);
+                      var main = $('#mainBodyDivForAll');
+                        
+                      var sidebar = $('#main-sidebar');
+                      
+        $.get("childs/" + link.replace(/%20/g, ' ') + "/element.html", function (html_string) {
+                             
+                 main.html(html_string)
+         })
+        $.get("childs/" + link.replace(/%20/g, ' ') + "/sidebar.html", function (html_string) {
+                             
+          sidebar.html(html_string);
+         })
+        
+
+    });
+
+    });
+
+ 
+
+</script>
 </body>
 
 </html>
