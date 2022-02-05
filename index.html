@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cheweek</title>
+    <link rel="shortcut icon" href="api/get/files/favicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/bootstrap.min.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/fontawesome-5-pro-master/css/all.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/bs4-custom_1.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/g_1.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/jquery-ui.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/dragtable.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/hummingbird-treeview.css">
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/bootstrap-select.css" />
+    <link rel="stylesheet" href="https://test.sourcedagile.com/resource/css/bs4/easyTree.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cs-icon.css" />
+    
+    <link rel="stylesheet" href="https://app.cheweek.com/css/bootstrap-datetimepicker.css" />
+    <!-- general design csss -->
+    <link rel="stylesheet" href="https://app.cheweek.com/css/general.css" />
+    <!-- <link rel="stylesheet" href="css/issue-management-branding.css" /> -->
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- UI Pattern and Tools -->
+    <link rel="stylesheet/less" type="text/css" href="css/less/sw-ui-pattern.less" />
+
+     <!-- JS files -->
+    <script src="https://test.sourcedagile.com/resource/js/bs4/jquery.min.js"></script>
+    <script src="https://test.sourcedagile.com/resource/js/bs4/jquery-ui.js"></script>
+    <script src="https://test.sourcedagile.com/resource/js/bs4/popper.min.js"></script>
+    <script src="https://test.sourcedagile.com/resource/js/bs4/bootstrap.min.js"></script>
+    <script src="https://test.sourcedagile.com/resource/js/bs4/daterangepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="https://test.sourcedagile.com/resource/js/bs4/bootstrap-select.min.js"></script>
+
+    <script type="text/javascript" src="js/less/less.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sw-ui-pattern.js"></script>
+
+
+    <style>
+        .pattern-header-background {
+            background: rgb(4,57,109);
+            background: -moz-linear-gradient(167deg, #03396C 0%, #8FB8E1 100%);
+            background: -webkit-linear-gradient(
+            167deg
+            , #03396C 0%, #8FB8E1 100%);
+            background: linear-gradient(
+            167deg
+            , #03396C 0%, #8FB8E1 100%);
+        }
+    </style>
+
+</head>
+
+<body id='body_of_nature' class="position-fixed">
+  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">UI Pattern and Tools</a>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Sign out</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="row">
+
+  </div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                Dashboard <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                  Orders
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Products
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Customers
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Reports
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Integrations
+              </a>
+            </li>
+          </ul>
+
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Saved reports</span>
+            <a class="d-flex align-items-center text-muted" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Current month
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Last quarter
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                 Social engagement
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Year-end sale
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main role="main" class="col-md-7 ml-sm-auto col-lg-8 pt-3 px-4">
+        <div class="cs-pattern-elements">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <h4>Recept Table structure</h4>
+                  </div>
+                  <div class="col-12">
+                    child 1
+                    <table class="sw-table-recipe">
+                      <thead>
+                        <tr class="sw-first-columns-table">
+                          <th><i class="cs-svg-icon numbers-white"></i></th>
+                          <th colspan="4">Faza</th>
+                          <th>Xidmət növü</th>
+                          <th>Xidmət adı</th>
+                          <th>Miqdar</th>
+                          <th>Vahid</th>
+                        </tr>
+                      </thead>
+                       <tbody>
+                        <tr class="sw-first-list-item-table">
+                          <td class="sw-td-number">1</td>
+                          <td class="sw-table-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                          </td>
+                          <td colspan="3">Qəlibləmə</td>
+                          <td>İşə muzd</td>
+                          <td>Qəlib çıxarma</td>
+                          <td>15</td>
+                          <td>ədəd</td>
+                        </tr>
+                         <tr class="sw-detail-main-tr">
+                          <td class="sw-vertical-column-table" colspan="2">Təyinat</td>
+                           <td class="sw-border-none p-0" colspan="100%">
+                            <table style="width:100%;">
+                              <tbody>
+                                <tr class="sw-border-none sw-dedail-second-tr-btn">
+                                  <td class="br-none sw-table-arrow">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </td>
+                                  <td colspan="100%" class="sw-second-list-table">Xammal</td>
+                                </tr>
+                                <tr class="sw-border-none sw-detail-second-tr sw-third-column-heading-table">
+                                  <td class="sw-border-none p-0" colspan="100%">
+                                      <table style="width:100%">
+                                        <thead>
+                                          <tr>
+                                            <th rowspan="1"></th>
+                                            <th style="width: 30px;"><i class="cs-svg-icon numbers"></i></th>
+                                            <th>
+                                              <select name="" id="" class="selectpicker">
+                                                <option selected value="">Məhsul...</option>
+                                                <option value="">Flyer</option>
+                                                <option value="">Business Card</option>
+                                                <option value="">Rolup</option>
+                                              </select>
+                                            </th>
+                                            <th>
+                                              <div class="cs-input-group">
+                                                <input type="text" class="" placeholder="Miqdar...">
+                                              </div>
+                                            </th>
+                                            <th>
+                                              <select name="" id="" class="selectpicker">
+                                                <option selected value="">Vahid...</option>
+                                                <option value="">10.528 kv.m</option>
+                                                <option value="">15 kv.m</option>
+                                                <option value="">28 kv.m</option>
+                                              </select>
+                                            </th>
+                                            <th style="width: 30px;"><button class="sw-table-btn btn"><i class="fas fa-plus"></i></button></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr class="sw-third-list-item-table">
+                                            <td rowspan="1"></td>
+                                            <td class="sw-td-number">1</td>
+                                            <td>Baner</td>
+                                            <td>18 ədəd</td>
+                                            <td>10.528 kv.m</td>
+                                            <td>
+                                               <div class="d-flex"><button class="sw-table-btn-alt"><i class="fas fa-edit"></i></button>
+                                                <button class="sw-table-btn-alt"><i class="fas fa-trash"></i></button></div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </td>
+                                </tr>
+                                <tr class="sw-border-none sw-dedail-second-tr-btn">
+                                  <td class="sw-table-arrow">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </td>
+                                  <td colspan="100%" class="sw-second-list-table">Keyfiyyət</td>
+                                </tr>
+                             </tbody>
+                            </table>
+                           </td>
+                         </tr>
+    
+    
+                         <tr class="sw-first-list-item-table">
+                          <td class="sw-td-number">2</td>
+                          <td class="sw-table-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                          </td>
+                          <td colspan="3">Qəlibləmə</td>
+                          <td>İşə muzd</td>
+                          <td>Qəlib çıxarma</td>
+                          <td>15</td>
+                          <td>ədəd</td>
+                        </tr>
+                         <tr class="sw-detail-main-tr">
+                          <td class="sw-vertical-column-table" colspan="2">Təyinat</td>
+                           <td class="sw-border-none p-0" colspan="100%">
+                            <table style="width:100%;">
+                              <tbody>
+                                <tr class="sw-border-none sw-dedail-second-tr-btn">
+                                  <td class="br-none sw-table-arrow">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </td>
+                                  <td colspan="100%" class="sw-second-list-table">Xammal</td>
+                                </tr>
+                                <tr class="sw-border-none sw-detail-second-tr sw-third-column-heading-table">
+                                  <td class="sw-border-none p-0" colspan="100%">
+                                      <table style="width:100%">
+                                        <thead>
+                                          <tr>
+                                            <th rowspan="1"></th>
+                                            <th><i class="cs-svg-icon numbers"></i></th>
+                                            <th>
+                                              <select name="" id="" class="selectpicker">
+                                                <option selected value="">Məhsul...</option>
+                                                <option value="">Flyer</option>
+                                                <option value="">Business Card</option>
+                                                <option value="">Rolup</option>
+                                              </select>
+                                            </th>
+                                            <th>
+                                              <div class="cs-input-group">
+                                                <input type="text" class="" placeholder="Miqdar...">
+                                              </div>
+                                            </th>
+                                            <th>
+                                              <select name="" id="l" class="selectpicker">
+                                                <option selected value="">Vahid...</option>
+                                                <option value="">10.528 kv.m</option>
+                                                <option value="">15 kv.m</option>
+                                                <option value="">28 kv.m</option>
+                                              </select>
+                                            </th>
+                                            <th style="width: 30px;"><button class="sw-table-btn btn"><i class="fas fa-plus"></i></button></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr class="sw-third-list-item-table">
+                                            <td rowspan="1"></td>
+                                            <td class="sw-td-number">1</td>
+                                            <td>Baner</td>
+                                            <td>18 ədəd</td>
+                                            <td>10.528 kv.m</td>
+                                            <td><div class="d-flex"><button class="sw-table-btn-alt"><i class="fas fa-edit"></i></button>
+                                              <button class="sw-table-btn-alt"><i class="fas fa-trash"></i></button></div></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </td>
+                                </tr>
+                                <tr class="sw-border-none sw-dedail-second-tr-btn">
+                                  <td class="sw-table-arrow">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </td>
+                                  <td colspan="100%" class="sw-second-list-table">Keyfiyyət</td>
+                                </tr>
+                             </tbody>
+                            </table>
+                           </td>
+                         </tr>
+                       </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </main>
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar-right">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                Dashboard <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                  Orders
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Products
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Customers
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Reports
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Integrations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
