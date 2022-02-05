@@ -1,0 +1,189 @@
+.sw-color-white {
+  color: #ffffff;
+}
+.sw-table-recipe {
+  width: 100%;
+  border-right: solid 1px rgba(0, 0, 0, 0.5);
+}
+.sw-table-recipe tr,
+.sw-table-recipe td,
+.sw-table-recipe th,
+.sw-table-recipe thead {
+  border-left: solid 1px rgba(0, 0, 0, 0.5);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.sw-table-recipe .sw-third-column-heading-table thead tr th {
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+}
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5) !important;
+}
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn:last-child {
+  border-bottom: none !important;
+}
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn.show {
+  border-bottom: none !important;
+}
+.sw-table-recipe .sw-td-number {
+  width: 30px;
+}
+.sw-table-recipe .sw-table-arrow {
+  background: #ACCDDE;
+  width: 12px;
+  background-position: center;
+  height: 30px;
+}
+.sw-table-recipe .sw-table-arrow i {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 0 2px;
+}
+.sw-table-recipe .sw-first-columns-table {
+  background: #6497B2;
+}
+.sw-table-recipe .sw-first-columns-table th {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  height: 30px;
+}
+.sw-table-recipe .sw-first-list-item-table {
+  background: #DFEEF7;
+  color: #03396C;
+  cursor: pointer;
+}
+.sw-table-recipe .sw-first-list-item-table td {
+  font-size: 14px;
+  height: 30px;
+}
+.sw-table-recipe .sw-vertical-column-table {
+  transform: rotate(-180deg);
+  text-align: center;
+  writing-mode: vertical-rl;
+  color: #03396C;
+}
+.sw-table-recipe .sw-second-list-table {
+  background: #C2DDEC;
+  color: #03396C;
+  text-align: center;
+  font-size: 12px;
+  height: 30px;
+}
+.sw-table-recipe .sw-third-column-heading-table {
+  background: #C2DDEC;
+}
+.sw-table-recipe .sw-third-column-heading-table td {
+  font-size: 12px;
+  height: 30px;
+  padding: 0;
+}
+.sw-table-recipe .sw-third-column-heading-table td[rowspan],
+.sw-table-recipe .sw-third-column-heading-table thead tr th[rowspan] {
+  background: #03396C;
+  width: 17px;
+}
+.sw-table-recipe .sw-third-column-heading-table table thead th {
+  height: 30px;
+}
+.sw-table-recipe .sw-third-list-item-table {
+  background: #DFEEF7;
+  color: #03396C;
+}
+.sw-table-recipe .sw-third-list-item-table td {
+  font-size: 12px;
+  color: #03396C;
+  height: 30px;
+}
+.sw-table-recipe .sw-dedail-second-tr-btn td:nth-child(-n+2) {
+  border-bottom: none !important;
+}
+.sw-table-recipe .sw-dedail-second-tr-btn {
+  cursor: pointer;
+}
+.sw-table-recipe .sw-border-none {
+  border: none !important;
+}
+.sw-table-recipe .sw-detail-main-tr,
+.sw-table-recipe .sw-detail-second-tr {
+  display: none;
+}
+.sw-table-recipe .sw-detail-main-tr.show,
+.sw-table-recipe .sw-detail-second-tr.show {
+  display: table-row;
+}
+.sw-table-recipe .sw-table-btn {
+  width: 20px;
+  height: 20px;
+  background: #03396C;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+.sw-table-recipe .sw-table-btn i {
+  padding: 0;
+  font-size: 8px;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+.sw-table-recipe .sw-table-btn-alt {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  padding: 5px;
+  color: #03396C;
+  text-align: center;
+}
+.sw-table-recipe .sw-table-btn-alt i {
+  padding: 0;
+  font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+.sw-table-recipe .bootstrap-select .btn {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 22px;
+  height: 25px;
+  border: none;
+  background: #03396C;
+  box-shadow: none !important;
+  border-radius: 7px;
+  padding: 1px 12px;
+}
+.sw-table-recipe .dropdown-menu > li a {
+  padding: 1px 10px;
+}
+.sw-table-recipe .cs-input-group input[type="text"],
+.sw-table-recipe .cs-input-group input[type=search],
+.sw-table-recipe .cs-input-group input[type="password"] {
+  font-size: 13px;
+  line-height: 22px;
+  height: 25px;
+  padding: 1px 10px;
+  border: none;
+  background: #03396C;
+  border-radius: 7px;
+  color: #fff;
+}
+.sw-table-recipe .cs-input-group input[type="text"]:focus,
+.sw-table-recipe .cs-input-group input[type=search]:focus,
+.sw-table-recipe .cs-input-group input[type="password"]:focus {
+  outline: none;
+  border: none;
+}
+.sw-table-recipe .cs-input-group input[type="text"]::placeholder,
+.sw-table-recipe .cs-input-group input[type=search]::placeholder,
+.sw-table-recipe .cs-input-group input[type=password]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sw-table-recipe button:focus {
+  outline: none;
+}
