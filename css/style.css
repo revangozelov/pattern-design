@@ -27,3 +27,35 @@ figure.language-html .btn-clipboard:hover {
     color: #fff;
     background-color: #027de7;
 }
+ul.nav li.nav-item ul.nav {
+    padding-left: 15px;
+}
+nav.sidebar-right .nav-link {
+    padding: 0.1rem 1rem;
+}
+nav.sidebar-right .nav-link {
+    color: #99979c;
+}
+nav.sidebar-right .nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+.sidebar-sticky {
+    top: 4rem;
+}
+.bg-cheweek {
+    background-color: #03396C;
+}
+.navbar-dark.bg-cheweek input[type="search"] {
+    color: #ffffff;
+    background-color: rgba(3, 57, 108, 0.5);
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-dark.bg-cheweek input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.sidebar .nav-link {
+    text-transform: capitalize;
+}
