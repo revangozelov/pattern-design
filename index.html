@@ -61,10 +61,10 @@
 
 </head>
 
-<body id='body_of_nature' class="position-fixed">
-  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+<body>
+  <nav class="navbar navbar-dark sticky-top bg-cheweek flex-md-nowrap p-0">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">UI Pattern and Tools</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <input class="form-control form-control-dark w-100" type="search" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
         <a class="nav-link" href="#">Sign out</a>
@@ -78,8 +78,12 @@
   
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar" style="padding-top: 70px;">
         <div class="sidebar-sticky">
+          <div class="col-md-12">
+            <input class="form-control" type="search" placeholder="Search..." />
+            <hr>
+          </div>
           <ul class="nav menu-list flex-column">
             <li class="nav-item">
               <a class="nav-link active" href="#">
@@ -276,9 +280,14 @@
 
     });
 
- 
+
 
 </script>
+
+<div class="alert alert-success" id="success-alert" style="position: absolute;right: 10px;top: 48px;z-index: 5000; display:none">
+  <button type="button" class="close" data-dismiss="alert" style="margin-top: -4px;">x</button>
+  <span style="margin-right:20px;"><strong>Success! </strong> Product have added to your wishlist.</span>
+</div>
 </body>
 
 </html>
