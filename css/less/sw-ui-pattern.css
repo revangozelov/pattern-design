@@ -16,13 +16,13 @@
 .sw-table-recipe .sw-third-column-heading-table thead tr th {
   border-top: solid 1px rgba(0, 0, 0, 0.5);
 }
-.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn {
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-detail-second-tr-btn {
   border-bottom: solid 1px rgba(0, 0, 0, 0.5) !important;
 }
-.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn:last-child {
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-detail-second-tr-btn:last-child {
   border-bottom: none !important;
 }
-.sw-table-recipe .sw-detail-main-tr.show tbody .sw-dedail-second-tr-btn.show {
+.sw-table-recipe .sw-detail-main-tr.show tbody .sw-detail-second-tr-btn.show {
   border-bottom: none !important;
 }
 .sw-table-recipe .sw-td-number {
@@ -95,10 +95,10 @@
   color: #03396C;
   height: 30px;
 }
-.sw-table-recipe .sw-dedail-second-tr-btn td:nth-child(-n+2) {
+.sw-table-recipe .sw-detail-second-tr-btn td:nth-child(-n+2) {
   border-bottom: none !important;
 }
-.sw-table-recipe .sw-dedail-second-tr-btn {
+.sw-table-recipe .sw-detail-second-tr-btn {
   cursor: pointer;
 }
 .sw-table-recipe .sw-border-none {
