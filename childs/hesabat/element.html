@@ -1,36 +1,54 @@
 <div class="container">
   <div class="box-item">
-    <div class="box-top">
+    <div class="box-top side-flex-center">
       <p>Stok Minimumu</p>
     </div>
-    <div class="box-bottom">
+    <div class="box-bottom side-flex-center">
       <p>30 gün / 22 rulon</p>
     </div>
   </div>
   <div class="box-item">
-    <div class="box-top">
+    <div class="box-top side-flex-center">
       <p>Sərf İntensivliyi</p>
     </div>
-    <div class="box-bottom">
+    <div class="box-bottom side-flex-center">
       <p>30 gün / 22 rulon</p>
     </div>
   </div>
   <div class="box-item">
-    <div class="box-top">
+    <div class="box-top side-flex-center">
       <p>Sərf İntensivliyi</p>
     </div>
-    <div class="box-bottom">
+    <div class="box-bottom side-flex-center">
       <p>4.584 ədəd</p>
-      <div class="icon-box .cs-svg-icon arrow-bottom"></div>
+      <div class="icon-box cs-svg-icon arrow-bottom"></div>
     </div>
   </div>
   <div class="box-item">
-    <div class="box-top">
+    <div class="box-top side-flex-center">
       <p>Sərf İntensivliyi</p>
     </div>
-    <div class="box-bottom">
+    <div class="box-bottom side-flex-center">
       <p>4.584 ədəd</p>
-      <div class="icon-box .cs-svg-icon arrow-bottom"></div>
+      <div class="icon-box cs-svg-icon arrow-bottom"></div>
+    </div>
+  </div>
+
+  <div class="sale-price-label">
+    <div class="side-flex-center sale-label">
+      <p>Satış Qiyməti</p>
+    </div>
+    <div class="side-flex-center sale-price">
+      <p>1000 ₼</p>
+    </div>
+  </div>
+
+  <div class="side-flex-center detail-label-box">
+    <div class="side-flex-center detail-name">
+      <p>Rəng</p>
+    </div>
+    <div class="side-flex-center detail-spec">
+      <p>Göy</p>
     </div>
   </div>
 </div>
@@ -55,25 +73,65 @@
     height: 22px;
     background: #03396cb2;
     border-radius: 10px 10px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .box-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 5px;
     height: auto;
     background: #ffffff1c;
     border-radius: 0 0 10px 10px;
+    width: 100%;
   }
   p {
     margin: 0;
     color: #fff;
     font-size: 16px;
   }
-  .box-bottom {
+  .icon-box {
     width: 20px;
     height: 20px;
+  }
+  .cs-svg-icon::after {
+    background-position: center;
+  }
+
+  /* !SALE PRİCE LABEL */
+  .sale-price-label {
+    width: 238px;
+    display: flex;
+    height: 25px;
+  }
+  .sale-label {
+    background: #03396cb3;
+    border-radius: 7px 0px 0px 7px;
+    width: 101px;
+  }
+  .sale-price {
+    width: 137px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.5px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 7px 7px 0px;
+  }
+  .side-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-label-box {
+    height: 22px;
+    width: 350px;
+  }
+  .detail-name {
+    width: 69px;
+    background: #03396cb3;
+    border-radius: 7px 0px 0px 7px;
+  }
+  .detail-spec {
+    width: 281px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.5px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 0px 7px 7px 0px;
   }
 </style>
