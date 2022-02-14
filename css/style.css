@@ -1,61 +1,68 @@
 figure.language-html {
-    position: relative;
-    overflow: auto;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+  position: relative;
+  overflow: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
-figure.language-html .bd-clipboard{
-    display: block;
+figure.language-html .bd-clipboard {
+  display: block;
 }
 figure.language-html .btn-clipboard {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    z-index: 10;
-    display: block;
-    padding: 0.25rem 0.5rem;
-    font-size: 75%;
-    color: #818a91;
-    cursor: pointer;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0.25rem;
 }
 figure.language-html .btn-clipboard:hover {
-    color: #fff;
-    background-color: #027de7;
+  color: #fff;
+  background-color: #027de7;
 }
 ul.nav li.nav-item ul.nav {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 nav.sidebar-right .nav-link {
-    padding: 0.1rem 1rem;
+  padding: 0.1rem 1rem;
 }
 nav.sidebar-right .nav-link {
-    color: #99979c;
+  color: #99979c;
 }
 nav.sidebar-right .nav-link:hover {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 .sidebar-sticky {
-    top: 4rem;
+  top: 4rem;
 }
 .bg-cheweek {
-    background-color: #03396C;
+  background-color: #03396c;
 }
-.navbar-dark.bg-cheweek input[type="search"] {
-    color: #ffffff;
-    background-color: rgba(3, 57, 108, 0.5);
-    border-color: none;
-    outline: 0;
-    box-shadow: none;
+.navbar-dark.bg-cheweek input[type='search'] {
+  color: #ffffff;
+  background-color: rgba(3, 57, 108, 0.5);
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
 }
 .navbar-dark.bg-cheweek input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .sidebar .nav-link {
-    text-transform: capitalize;
-} 
+  text-transform: capitalize;
+}
+
+img {
+  max-width: 800px;
+}
+.section- {
+  margin: 30px 0;
+}
