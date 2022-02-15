@@ -1,54 +1,58 @@
 <div class="container">
   <div class="box-item">
-    <div class="box-top side-flex-center">
-      <span>Stok Minimumu</p>
+    <div class="box-top align-items-center justify-content-center">
+      <span>Stok Minimumu</span>
     </div>
-    <div class="box-bottom side-flex-center">
-      <span>30 gün / 22 rulon</p>
-    </div>
-  </div>
-  <div class="box-item">
-    <div class="box-top side-flex-center">
-      <span>Sərf İntensivliyi</p>
-    </div>
-    <div class="box-bottom side-flex-center">
-      <span>30 gün / 22 rulon</p>
+    <div class="box-bottom align-items-center justify-content-center">
+      <span>30 gün / 22 rulon</span>
     </div>
   </div>
   <div class="box-item">
-    <div class="box-top side-flex-center">
-      <span>Sərf İntensivliyi</p>
+    <div class="box-top align-items-center justify-content-center">
+      <span>Sərf İntensivliyi</span>
     </div>
-    <div class="box-bottom side-flex-center">
-      <span>4.584 ədəd</p>
-      <div class="icon-box cs-svg-icon arrow-bottom"></div>
+    <div class="box-bottom align-items-center justify-content-center">
+      <span>30 gün / 22 rulon</span>
     </div>
   </div>
   <div class="box-item">
-    <div class="box-top side-flex-center">
-      <span>Sərf İntensivliyi</p>
+    <div class="box-top align-items-center justify-content-center">
+      <span>Sərf İntensivliyi</span>
     </div>
-    <div class="box-bottom side-flex-center">
-      <span>4.584 ədəd</p>
-      <div class="icon-box cs-svg-icon arrow-bottom"></div>
+    <div class="box-bottom align-items-center justify-content-center">
+      <span>4.584 ədəd</span>
+      <div class="icon-box">
+        <i class="fa fa-arrow-down red-arrow"></i>
+      </div>
+    </div>
+  </div>
+  <div class="box-item">
+    <div class="box-top align-items-center justify-content-center">
+      <span>Sərf İntensivliyi</span>
+    </div>
+    <div class="box-bottom align-items-center justify-content-center">
+      <span>4.584 ədəd</span>
+      <div class="icon-box">
+        <i class="fa fa-arrow-up blue-arrow"></i>
+      </div>
     </div>
   </div>
 
   <div class="sale-price-label">
-    <div class="side-flex-center sale-label">
-      <span>Satış Qiyməti</p>
+    <div class="align-items-center justify-content-center sale-label">
+      <span>Satış Qiyməti</span>
     </div>
-    <div class="side-flex-center sale-price">
-      <span>1000 ₼</p>
+    <div class="align-items-center justify-content-center sale-price">
+      <span>1000 ₼</span>
     </div>
   </div>
 
   <div class="side-flex-center detail-label-box">
-    <div class="side-flex-center detail-name">
-      <span>Rəng</p>
+    <div class="align-items-center justify-content-center detail-name">
+      <span>Rəng</span>
     </div>
-    <div class="side-flex-center detail-spec">
-      <span>Göy</p>
+    <div class="align-items-center justify-content-center detail-spec">
+      <span>Göy</span>
     </div>
   </div>
 </div>
@@ -73,6 +77,7 @@
     height: 22px;
     background: #03396cb2;
     border-radius: 10px 10px 0 0;
+    display: flex;
   }
   .box-bottom {
     gap: 5px;
@@ -80,10 +85,12 @@
     background: #ffffff1c;
     border-radius: 0 0 10px 10px;
     width: 100%;
+    display: flex;
   }
   span {
     color: #fff;
     font-size: 16px;
+    padding: 0 10px;
   }
   .icon-box {
     width: 20px;
@@ -91,6 +98,13 @@
   }
   .cs-svg-icon::after {
     background-position: center;
+  }
+
+  .red-arrow::before {
+    color: #7e1313;
+  }
+  .blue-arrow::before {
+    color: #151de2;
   }
 
   /* !SALE PRİCE LABEL */
@@ -102,8 +116,10 @@
   .sale-label {
     background: #03396cb3;
     border-radius: 7px 0px 0px 7px;
-    width: 101px;
-    border: 0.5px solid #03396cb3;;
+    width: fit-content;
+    min-width: 120px;
+    border: 0.5px solid #03396cb3;
+    display: flex;
   }
   .sale-price {
     width: 137px;
@@ -111,23 +127,22 @@
     border: 0.5px solid #ffffff;
     box-sizing: border-box;
     border-radius: 0px 7px 7px 0px;
-  }
-  .side-flex-center {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .detail-label-box {
+    display: flex;
     height: 22px;
     width: 350px;
   }
   .detail-name {
+    display: flex;
     width: 69px;
     background: #03396cb3;
     border-radius: 7px 0px 0px 7px;
   }
   .detail-spec {
+    display: flex;
     width: 281px;
     background: rgba(255, 255, 255, 0.11);
     border: 0.5px solid #ffffff;
