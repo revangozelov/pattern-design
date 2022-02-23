@@ -1,0 +1,113 @@
+<div class="container">
+  <div class="money-data-table">
+    <div class="money-data-row">
+      <div class="money-label-cell center-cell-content left-cell-border-radius">
+        <span>Pul hərəkəti</span>
+      </div>
+      <div class="money-label-cell center-cell-content">
+        <span>Əməliyyat</span>
+      </div>
+      <div class="money-label-cell center-cell-content">
+        <span>Maliyyə</span>
+      </div>
+      <div
+        class="money-label-cell center-cell-content right-cell-border-radius"
+      >
+        <span>İnvestisiya</span>
+      </div>
+    </div>
+    <div class="money-data-row">
+      <div class="money-label-cell center-cell-content left-cell-border-radius">
+        <span>Mədaxil</span>
+      </div>
+      <div class="money-amount-cell center-cell-content">
+        <span>48 245 ₼</span>
+      </div>
+      <div class="money-amount-cell center-cell-content">
+        <span>48 245 ₼</span>
+      </div>
+      <div
+        class="money-amount-cell center-cell-content right-cell-border-radius"
+      >
+        <span>48 245 ₼</span>
+      </div>
+    </div>
+    <div class="money-data-row">
+      <div class="money-label-cell center-cell-content left-cell-border-radius">
+        <span>Mədaxil</span>
+      </div>
+      <div class="money-amount-cell center-cell-content">
+        <span>48 245 ₼</span>
+      </div>
+      <div class="money-amount-cell center-cell-content">
+        <span>48 245 ₼</span>
+      </div>
+      <div
+        class="money-amount-cell center-cell-content right-cell-border-radius"
+      >
+        <span>48 245 ₼</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<style>
+  .container {
+    background: rgba(3, 57, 108, 0.7);
+    width: 100%;
+    height: 1000px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .money-data-table {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .money-data-row {
+    display: flex;
+    gap: 5px;
+  }
+  .money-data-row span {
+    color: #fff;
+    transition: 0.3s;
+  }
+  .money-label-cell {
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.7px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    width: 96px;
+    height: 21px;
+    transition: 0.3s;
+  }
+  .center-cell-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-cell-border-radius {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .right-cell-border-radius {
+    border-radius: 0px 10px 10px 0px;
+  }
+  .money-label-cell:hover,
+  .money-label-cell span:hover {
+    color: rgba(3, 57, 108, 1);
+    background: #c2ddec;
+  }
+  .money-amount-cell {
+    width: 96px;
+    height: 21px;
+    background: #03396c;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+  .money-amount-cell:hover {
+    background: rgba(3, 57, 108, 0.7);
+  }
+</style>
