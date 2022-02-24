@@ -4,26 +4,14 @@
       <span>Aktiv</span>
     </div>
     <div class="active-box-first-row">
-      <div class="active-round-column b-flex-conter">
-        <span>Uzun müddətli aktiv</span>
-      </div>
-      <div class="active-round-column b-flex-conter">
-        <span>Qısa müddətli aktiv</span>
-      </div>
-      <div class="active-round-column b-flex-conter">
-        <span>Toplam</span>
-      </div>
+      <span>Uzun müddətli aktiv</span>
+      <span>Uzun müddətli aktiv</span>
+      <span>Uzun müddətli aktiv</span>
     </div>
     <div class="active-box-second-row">
-      <div class="active-box-column b-flex-conter">
-        <span>7 548 898 ₼</span>
-      </div>
-      <div class="active-box-column b-flex-conter">
-        <span>7 548 898 ₼</span>
-      </div>
-      <div class="active-box-column b-flex-conter">
-        <span>7 548 898 ₼</span>
-      </div>
+      <span>7 548 898 ₼</span>
+      <span>7 548 898 ₼</span>
+      <span>7 548 898 ₼</span>
     </div>
   </div>
 </div>
@@ -65,32 +53,36 @@
     gap: 15px;
     padding: 15px;
   }
+  .active-box-first-row span {
+    padding-top: 2px;
+    text-align: center;
+    width: 204px;
+    height: 25px;
+    border: none;
+    background: rgba(3, 57, 108, 0.5);
+    border-radius: 25px;
+    color: #fff;
+    transition: 0.3s;
+  }
   .active-box-second-row {
     display: flex;
     gap: 15px;
     padding: 15px;
     padding-top: 0;
   }
-  .active-round-column {
+  .active-box-second-row span {
+    transition: 0.3s;
+    padding-top: 2px;
+    text-align: center;
     width: 204px;
     height: 25px;
     background: rgba(3, 57, 108, 0.5);
-    border-radius: 25px;
-    transition: 0.3s;
+    border: none;
+    color: #fff;
   }
-  .active-box-column {
-    width: 204px;
-    height: 25px;
-    background: rgba(3, 57, 108, 0.5);
-    mix-blend-mode: normal;
-    transition: 0.3s;
-  }
-  .active-round-column:hover,
-  .active-box-column:hover {
-    background: rgba(194, 221, 236, 1);
-  }
-  .active-round-column span:hover,
-  .active-box-column span:hover {
-    color: rgba(3, 57, 108, 1);
+  .active-box-second-row span:hover,
+  .active-box-first-row span:hover {
+    background: #c2ddec;
+    color: #03396c;
   }
 </style>
