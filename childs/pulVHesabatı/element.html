@@ -49,6 +49,26 @@
       </div>
     </div>
   </div>
+  <div class="money-info-row">
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+    <div class="row-box">
+      <span>7 548 898 ₼</span>
+    </div>
+  </div>
 </div>
 
 <!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -109,5 +129,32 @@
   }
   .money-amount-cell:hover {
     background: rgba(3, 57, 108, 0.7);
+  }
+
+  /*  money-info-row////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .money-info-row {
+    display: flex;
+    gap: 1px;
+  }
+  .row-box {
+    width: 156px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.7px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .row-box span {
+    transition: 0.3s;
+    color: #fff;
+  }
+  .row-box span:hover {
+    color: rgba(3, 57, 108, 1);
+  }
+  .row-box:hover {
+    background: #c2ddec;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
   }
 </style>

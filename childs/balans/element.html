@@ -1,0 +1,96 @@
+<div class="container">
+  <div class="active-box">
+    <div class="active-box-label b-flex-conter">
+      <span>Aktiv</span>
+    </div>
+    <div class="active-box-first-row">
+      <div class="active-round-column b-flex-conter">
+        <span>Uzun müddətli aktiv</span>
+      </div>
+      <div class="active-round-column b-flex-conter">
+        <span>Qısa müddətli aktiv</span>
+      </div>
+      <div class="active-round-column b-flex-conter">
+        <span>Toplam</span>
+      </div>
+    </div>
+    <div class="active-box-second-row">
+      <div class="active-box-column b-flex-conter">
+        <span>7 548 898 ₼</span>
+      </div>
+      <div class="active-box-column b-flex-conter">
+        <span>7 548 898 ₼</span>
+      </div>
+      <div class="active-box-column b-flex-conter">
+        <span>7 548 898 ₼</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<style>
+  .container {
+    background: rgba(3, 57, 108, 0.7);
+    width: 100%;
+    height: 1000px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .b-flex-conter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .active-box {
+    border-radius: 15px;
+    width: 673px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.11);
+  }
+  .active-box span {
+    color: #fff;
+  }
+  .active-box-label {
+    width: 673px;
+    height: 25px;
+    background: rgba(3, 57, 108, 0.7);
+    border-radius: 15px 15px 0px 0px;
+  }
+  .active-box-first-row {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+  }
+  .active-box-second-row {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 0;
+  }
+  .active-round-column {
+    width: 204px;
+    height: 25px;
+    background: rgba(3, 57, 108, 0.5);
+    border-radius: 25px;
+    transition: 0.3s;
+  }
+  .active-box-column {
+    width: 204px;
+    height: 25px;
+    background: rgba(3, 57, 108, 0.5);
+    mix-blend-mode: normal;
+    transition: 0.3s;
+  }
+  .active-round-column:hover,
+  .active-box-column:hover {
+    background: rgba(194, 221, 236, 1);
+  }
+  .active-round-column span:hover,
+  .active-box-column span:hover {
+    color: rgba(3, 57, 108, 1);
+  }
+</style>
