@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="employee-cart">
+    <div class="employee-img">
+      <img
+        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      />
+    </div>
+    <div class="employee-info">
+      <div class="employee-name">
+        <span>Rüstəm Quluzadə - 12.02.1994</span>
+      </div>
+      <div class="employee-position">
+        <span>ELCOM GROUP / Dizayner</span>
+      </div>
+      <div class="employee-email">
+        <span class="email-label">E-mail:</span>
+        <span class="contact-detail">designer3@elcom.az</span>
+      </div>
+      <div class="employee-mobil">
+        <span class="mobil-label">Mobil:</span>
+        <span class="contact-detail">+994 77 620 90 37</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<style>
+  .container {
+    background: rgba(3, 57, 108, 0.7);
+    width: 100%;
+    height: 1000px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .employee-cart {
+    width: 349px;
+    max-height: 130px;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .employee-img img {
+    width: 93px;
+    height: 93px;
+    border-radius: 1000px;
+  }
+  .employee-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .employee-info span {
+    color: #fff;
+    font-size: 15px;
+  }
+  .employee-name,
+  .employee-position,
+  .employee-email,
+  .employee-mobil {
+    display: flex;
+    gap: 15px;
+  }
+  .mobil-label,
+  .email-label {
+    padding: 2px 8px;
+    border-radius: 100px;
+    background: rgba(3, 57, 108, 0.7);
+    width: 63px;
+    text-align: center;
+  }
+</style>

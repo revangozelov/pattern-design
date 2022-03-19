@@ -1,0 +1,145 @@
+<div class="container">
+  <div class="sale-info-bar">
+    <div class="first-colum">
+      <span class="fa fa-arrow-up green-arrow"></span>
+      <i class="fa fa-coins white-icon"></i>
+    </div>
+    <div class="sale-column">
+      <span>Satış</span>
+    </div>
+    <div class="info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+    <div class="info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+    <div class="info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+    <div class="info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+    <div class="info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+    <div class="info-column last-info-column">
+      <span>1 154 548 854 ₼</span>
+    </div>
+  </div>
+  <div class="sale-icons">
+    <div class="sale-i">
+      <i class="far fa-chart-line"></i>
+    </div>
+    <div class="sale-i">
+      <i class="fas fa-chart-bar"></i>
+    </div>
+    <div class="sale-i">
+      <i class="fas fa-chart-pie-alt"></i>
+    </div>
+  </div>
+</div>
+
+<!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<style>
+  p {
+    margin: 0;
+  }
+  .container {
+    background: rgba(3, 57, 108, 0.7);
+    width: 100%;
+    height: 1000px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .sale-info-bar {
+    width: 100%;
+    display: flex;
+    gap: 2px;
+    height: 25px;
+    flex-basis: auto;
+  }
+  .green-arrow {
+    color: rgba(162, 216, 49, 1);
+  }
+  .white-icon {
+    color: #fff;
+  }
+  .first-colum {
+    width: 7%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.7px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sale-column {
+    width: 10%;
+    height: 100%;
+    background: #accdde;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.35);
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sale-column span {
+    font-weight: 600;
+    font-size: 15px;
+    /* font-feature-settings: 'tnum' on, 'lnum' on; */
+  }
+  .info-column {
+    width: 15%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 0.7px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+  }
+  .info-column span {
+    margin-top: 2px;
+    width: 95%;
+    text-align: end !important;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: right;
+    color: #fff;
+  }
+  .last-info-column {
+    border-radius: 0px 15px 15px 0px;
+  }
+  /* ICONS */
+
+  .sale-icons {
+    margin-left: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  .sale-i {
+    width: 25px;
+    height: 25px;
+    background: #03396c;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .sale-i:hover {
+    background: rgba(172, 205, 222, 1);
+    box-shadow: none;
+  }
+
+  .sale-i i {
+    color: #fff;
+    transition: 0.3s;
+  }
+  .sale-i i:hover {
+    color: rgba(3, 57, 108, 1);
+  }
+</style>
