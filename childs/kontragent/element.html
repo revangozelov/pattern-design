@@ -1,0 +1,185 @@
+<div class="container">
+  <div class="format-table-section">
+    <div class="left-format-col kontragent-flex">
+      <div class="left-button kontragent-flex">
+        <span class="fa fa-arrow-down green-arrow"></span>
+        <span>Alacaq</span>
+        <span>... ₼</span>
+      </div>
+      <div class="left-info kontragent-flex">
+        <span>Satılıb</span>
+        <span>... ₼</span>
+      </div>
+      <div class="left-info kontragent-flex">
+        <span>Ödənilib</span>
+        <span>... ₼</span>
+      </div>
+    </div>
+    <div class="right-format-col kontragent-flex">
+      <div class="right-button kontragent-flex">
+        <span class="fa fa-arrow-up red-arrow"></span>
+        <span>Verəcək</span>
+        <span>... ₼</span>
+      </div>
+      <div class="right-info kontragent-flex">
+        <span>Alınıb</span>
+        <span>... ₼</span>
+      </div>
+      <div class="right-info kontragent-flex">
+        <span>Ödənilib</span>
+        <span>... ₼</span>
+      </div>
+    </div>
+  </div>
+  <div class="boxes">
+    <div class="box-item">
+      <div class="box-top align-items-center justify-content-center">
+        <span>Vaxtı keçən:</span>
+      </div>
+      <div class="box-bottom align-items-center justify-content-center">
+        <span>... ₼</span>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="box-top align-items-center justify-content-center">
+        <span>Vaxtı çatan:</span>
+      </div>
+      <div class="box-bottom align-items-center justify-content-center">
+        <span>... ₼</span>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="box-top align-items-center justify-content-center">
+        <span>Növbədə:</span>
+      </div>
+      <div class="box-bottom align-items-center justify-content-center">
+        <span>... ₼</span>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="box-top align-items-center justify-content-center">
+        <span>Problemli:</span>
+      </div>
+      <div class="box-bottom align-items-center justify-content-center">
+        <span>... ₼</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- !CSS/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<style>
+  .container {
+    background: rgba(3, 57, 108, 0.7);
+    width: 100%;
+    height: 1000px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .format-table-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .format-table-section span {
+    color: #fff;
+    width: max-content;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .format-table-section button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .right-button,
+  .left-button {
+    background: rgba(255, 255, 255, 0.11);
+  }
+  .left-button:hover,
+  .right-button:hover {
+    background: #accdde;
+    transition: 0.3s;
+  }
+
+  .left-format-col,
+  .right-format-col {
+    width: 672px;
+    height: 55px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.11);
+    gap: 15px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+  }
+  .kontragent-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .green-arrow {
+    color: green !important;
+  }
+  .red-arrow {
+    color: red !important;
+  }
+  .left-info,
+  .right-info {
+    background-color: rgba(3, 57, 108, 0.5) !important;
+  }
+
+  .left-info,
+  .right-info,
+  .left-button,
+  .right-button,
+  .left-button,
+  .right-button {
+    padding: 0 7px;
+    width: 204px;
+    height: 25px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    justify-content: space-between;
+  }
+
+  /* !BOX////////////////////////////////////////////// */
+
+  .boxes {
+    display: flex;
+    gap: 15px;
+  }
+
+  .box-item {
+    width: 150px;
+    height: auto;
+    border: 0.7px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 15px !important;
+  }
+  .box-item span {
+    color: #fff;
+    transition: 0.3s;
+  }
+  .box-top {
+    height: 22px;
+    background: rgba(3, 57, 108, 0.698);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    transition: 0.3s;
+  }
+  .box-top:hover {
+    background: #accdde;
+  }
+  .box-top span:hover {
+    color: rgba(3, 57, 108, 1);
+  }
+  .box-bottom {
+    gap: 5px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    display: flex;
+  }
+</style>
